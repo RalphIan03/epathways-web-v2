@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Logo from "@assets/newlogosite.png"
+import { div } from "framer-motion/client";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -24,13 +25,13 @@ const Navbar = () => {
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex space-x-6 items-center font-semibold">
-                    <li><a href="/" className="hover:text-green-800">Home</a></li>
+                    <li><a href="/" className="hover:text-green-800">Events</a></li>
                     <li><a href="/services" className="hover:text-green-800">Services</a></li>
-                    <li><a href="/events" className="hover:text-green-800">Events</a></li>
-                    <li><a href="/about" className="hover:text-green-800">About</a></li>
+                    <li><a href="/events" className="hover:text-green-800">About</a></li>
+                    <li><a href="/about" className="hover:text-green-800">Contact</a></li>
 
                     {isShowingGetStarted && (
-                        <a href="/booking" className="hover:bg-green-700 bg-green-800 text-white pr-2 pl-2 pt-0.5 pb-0.5 rounded-sm">Get Started</a>
+                        <a href="/booking" className="hover:bg-green-700 bg-green-800 text-white pr-2 pl-2 pt-0.5 pb-0.5 rounded-sm animate-zoom text-center">Start your journey with us now!</a>
                     )}
                 </ul>
 
@@ -74,7 +75,11 @@ const Navbar = () => {
                     <li><a href="/services" className="hover:text-green-800">Services</a></li>
                     <li><a href="/events" className="hover:text-green-800">Events</a></li>
                     <li><a href="/about" className="hover:text-green-800">About</a></li>
-                    <li className="text-center"><a href="/" className="bg-green-800 text-white pr-10 pl-10 pt-2 pb-2 rounded-sm">Get Started</a></li>
+                    {isShowingGetStarted && (
+                        <div className="text-center">
+                            <a href="/booking" className="hover:bg-green-700 bg-green-800 text-white pr-2 pl-2 pt-0.5 pb-0.5 rounded-sm animate-zoom text-center">Start your journey with us now!</a>
+                        </div>
+                    )}
                 </ul>
             )}
         </nav>

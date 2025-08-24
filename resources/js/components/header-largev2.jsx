@@ -21,7 +21,7 @@ function CarouselHeader({ children: slides, autoslide = false, autoslideInterval
     }, [autoslide, autoslideInterval, next]);
 
     return (
-        <div className="overflow-hidden relative w-full h-[200px] sm:h-[300px] md:h-[400px] lg:h-[550px]">
+        <div className="overflow-hidden relative w-full h-[150px] sm:h-[300px] md:h-[400px]">
             <div
                 className="flex transition-transform ease-out duration-500 w-full h-full"
                 style={{ transform: `translateX(-${curr * 100}%)` }}

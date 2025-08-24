@@ -10,8 +10,9 @@ import Modal from "../components/modal-component";
 
 import Herodash from "@assets/Herodash.png";
 import Herodash2 from "@assets/p2hero.png";
+import Herovids from "@assets/animated.gif"
 
-const images = [Herodash, Herodash2];
+const images = [Herodash, Herodash2,Herovids];
 
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
