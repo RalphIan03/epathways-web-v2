@@ -35,7 +35,7 @@ const ConsultationSection = () => {
     return (
         <section className="py-12 bg-white font-urbanist">
             <div className="text-center mb-10">
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
                     Book for <span className="text-green-700">FREE</span> Consultation
                 </h2>
             </div>
