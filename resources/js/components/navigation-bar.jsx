@@ -77,7 +77,7 @@ const Navbar = () => {
                     <li><a href="/about" className="hover:text-green-800">About</a></li>
                     {isShowingGetStarted && (
                         <div className="text-center">
-                            <a href="/booking" className="hover:bg-green-700 bg-green-800 text-white pr-2 pl-2 pt-0.5 pb-0.5 rounded-sm animate-zoom text-center">Start your journey with us now!</a>
+                            <a href="https://forms.clickup.com/9003110473/f/8ca1429-26516/C1PGQNJNXJI63R3I81?fbclid=IwY2xjawMdFr1leHRuA2FlbQIxMABicmlkETE5NEh5NHMxVVpid0VYYnBzAR61iLHcYurKulGkWDlNvTZ8USnseQ3-4N2-VxEm4aMaPDgTHvII8AJjD6VHzA_aem_ZHRg6ebbbwL4LnmPzLfH4w" className="hover:bg-green-700 bg-green-800 text-white pr-2 pl-2 pt-0.5 pb-0.5 rounded-sm animate-zoom text-center">Start your journey with us now!</a>
                         </div>
                     )}
                 </ul>

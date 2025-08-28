@@ -47,7 +47,7 @@ export default function WelcomeModal() {
             Take the first step toward your future, book your free pre-assessment today!
           </p>
           <div className="mt-6 flex justify-center">
-            <a href="/booking" className="bg-green-800 text-white px-4 py-2 rounded hover:bg-green-700 animate-zoom ">
+            <a href="https://forms.clickup.com/9003110473/f/8ca1429-26516/C1PGQNJNXJI63R3I81?fbclid=IwY2xjawMdFr1leHRuA2FlbQIxMABicmlkETE5NEh5NHMxVVpid0VYYnBzAR61iLHcYurKulGkWDlNvTZ8USnseQ3-4N2-VxEm4aMaPDgTHvII8AJjD6VHzA_aem_ZHRg6ebbbwL4LnmPzLfH4w" className="bg-green-800 text-white px-4 py-2 rounded hover:bg-green-700 animate-zoom ">
               Book Now!
             </a>
           </div>

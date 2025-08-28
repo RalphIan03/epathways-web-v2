@@ -9,10 +9,12 @@ import AnimatedSection from "@/components/AnimatedSections";
 import Modal from "@/components/modal-component";
 import ServicesSection from "@/components/services";
 import PartnerLogos from "@/components/partners";
+// import ServicesSlider from "@/components/servicesv2";
+import TestimonialCard from "@/components/testimonies";
 
 import Herodash from "@assets/Herodash.png";
 import Herodash2 from "@assets/p2hero.png";
-import Herovids from "@assets/animated.gif"
+import Herovids from "@assets/animated.gif"    
 
 const images = [Herodash, Herodash2, Herovids];
 
@@ -43,6 +45,8 @@ export default function Home() {
           <ConsultationSection />
         </AnimatedSection>
 
+        {/* <ServicesSlider/> */}
+
         <AnimatedSection direction="left">
           <ServicesSection />
         </AnimatedSection>
@@ -50,6 +54,10 @@ export default function Home() {
         <AnimatedSection direction="left">
           <LearnNZSection />
         </AnimatedSection>
+
+        <PartnerLogos/>
+
+        <TestimonialCard/>
 
         <Modal isOpen={showModal} onClose={() => setShowModal(false)} />
       </div>
